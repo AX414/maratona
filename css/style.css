@@ -55,7 +55,8 @@ button:hover{
 }
 
 form {
-    margin-top: 150px;
+    margin-top: 100px;
+    margin-bottom: 70px;
     display:inline-block;
     color:white;
     background-color: crimson;
@@ -70,12 +71,80 @@ label{
     color: white;
 }
 
+p{
+    color:black;
+}
+
+#cabecalho_campeoes {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 55px;
+    color:white;
+}
+#grid_campeoes {
+    display: grid;
+    place-items: center;
+}
+#banner_campeoes{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.campeoes {
+    flex: 0 1 215px;
+    margin: 25px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.campeoes img {
+    border-radius: 10px;
+    max-width: 215px;
+    max-height: 275px;
+}
+
+#allan{
+    height: 140px;
+    width: 200px;
+}
+
+
+#ana{
+    height: 140px;
+    width: 200px;
+}
+
+#axel{
+    height: 140px;
+    width: 200px;
+}
+
+#ferry{
+    height: 140px;
+    width: 200px;
+}
+
+#sharon{
+    height: 140px;
+    width: 200px;
+}
+
+#simone{
+    height: 140px;
+    width: 200px;
+}
+
 #banner-imagem{
     background-image: url(../img/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -108,14 +177,6 @@ label{
     margin-right: 40px;
     margin-left: 40px;
     margin-top: 100px;
-}
-
-.col-33{
-    width: 33.33%;
-}
-
-.col-20{
-    width: 20%;
 }
 
 
@@ -176,12 +237,18 @@ label{
         font-size: 15px;
     }
 
-    .col-50 {
-        width: 100%;
-    }
+    form {
+        margin-top: 160px;
+        margin-bottom: 120px;
 
-    .col-20{
-        width: 50%;
+        display:inline-block;
+        color:white;
+        background-color: crimson;
+        border-radius: 30px;
+        padding: 9px 25px;
+        border: none;
+        width: 300px;
+        height: 100%; 
     }
 
     #banner-imagem{
@@ -195,13 +262,22 @@ label{
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 
-    margin-top: 250px;
-    margin-left:50px;
-    margin-right:50px;
+    margin-top: 200px;
+    margin-left:20px;
+    margin-right:20px;
+
     width: 300px;
-    height: 200px; 
-    
-    position: fixed;   
+    height: 250px;  
+}
+
+.menu_h{
+    position: fixed; /* fixo na tela, usar com moderacao */
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin:0;
+    background-color:white;
+    text-align: center; /* alinhamento do rodape*/
 }
 
 .menu_h a{
@@ -224,20 +300,44 @@ label{
     border-radius: 50px;
 }
 
-
-form {
-    margin-top: 220px;
-    margin-left:50px;
-    margin-bottom: 50px;
-    margin-right:50px;
-    display:inline-block;
+#cabecalho_campeoes {
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 40px;
+    display: flex;
+    font-size: 35px;
     color:white;
-    background-color: crimson;
-    border-radius: 30px;
-    padding: 9px 25px;
-    border: none;
-    width: 300px;
-    height: 330px; 
+}
+
+#allan{
+    height: 150px;
+    width: 200px;
+}
+
+
+#ana{
+    height: 150px;
+    width: 200px;
+}
+
+#axel{
+    height: 150px;
+    width: 200px;
+}
+
+#ferry{
+    height: 150px;
+    width: 200px;
+}
+
+#sharon{
+    height: 150px;
+    width: 200px;
+}
+
+#simone{
+    height: 150px;
+    width: 200px;
 }
 
 
